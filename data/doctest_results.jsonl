@@ -1,0 +1,14 @@
+{"status": "smoke_passed", "return_type": "Tensor", "api_id": "torch.nn.functional.dropout"}
+{"status": "smoke_passed", "return_type": "Tensor", "api_id": "torch.nn.functional.relu"}
+{"status": "smoke_passed", "return_type": "Tensor", "api_id": "torch.nn.functional.softmax"}
+{"status": "smoke_passed", "return_type": "Tensor", "api_id": "torch.nn.functional.log_softmax"}
+{"status": "passed", "total_tests": 1, "return_type": "unknown", "api_id": "torch.nn.functional.embedding"}
+{"status": "skipped", "reason": "Complex signature, smoke test aborted", "api_id": "torch.nn.functional.batch_norm"}
+{"status": "skipped", "reason": "Complex signature, smoke test aborted", "api_id": "torch.nn.functional.layer_norm"}
+{"status": "passed", "total_tests": 1, "return_type": "unknown", "api_id": "torch.nn.functional.nll_loss"}
+{"status": "passed", "total_tests": 1, "return_type": "unknown", "api_id": "torch.nn.functional.cross_entropy"}
+{"status": "skipped", "reason": "Complex signature, smoke test aborted", "api_id": "torch.nn.functional.mse_loss"}
+{"status": "failed", "output": "Smoke test failed: either size or scale_factor should be defined", "failures": 1, "api_id": "torch.nn.functional.interpolate"}
+{"status": "skipped", "reason": "Complex signature, smoke test aborted", "api_id": "torch.nn.functional.grid_sample"}
+{"status": "passed", "total_tests": 1, "return_type": "unknown", "api_id": "torch.nn.functional.pad"}
+{"status": "smoke_passed", "return_type": "Tensor", "api_id": "torch.nn.functional.normalize"}
